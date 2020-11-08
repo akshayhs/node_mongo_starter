@@ -5,6 +5,9 @@ const methodOverride = require('method-override');
 const path = require('path');
 const session = require('express-session');
 
+/* Databse connection */
+const db = require('./config/mongodb');
+
 /* MongoDB store */
 const MongoStore = require('connect-mongodb-session')(session);
 
@@ -31,5 +34,6 @@ app.use(
 const port = process.env.PORT || 3000;
 
 app.listen(3000, () => {
+	db();
 	console.log(`Node.js application now live on port ${port}`);
 });
