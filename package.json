@@ -1,14 +1,14 @@
 {
   "name": "node_mongo_starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter for node.js applications running MongoDB on the backend",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Akshay H S",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
