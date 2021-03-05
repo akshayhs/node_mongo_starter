@@ -12,21 +12,22 @@ A simple repository for quickly getting started with Node.js applications runnin
 | ejs | templating |
 | express | The framework used for the Node.js application |
 | express-session | session management for the application |
+| helmet | A package for securing HTTP headers |
 | method-override | Overriding request verbs |
-| mongoose | The ODM[^1] for MongoDB |
-| moment-timezone | For timezone related information |
+| morgan | A HTTP request logger for middleware |
+| mongoose | The ODM for MongoDB [^1] |
 
 ## Getting started
 
-**1. Make sure the repository is cloned to your local machine**.
+#### 1. Make sure the repository is cloned to your local machine
 
-**2. Install the packages from the `package.json` file**.
+#### 2. Install the packages from the `package.json` file
 
 ```bash
 npm i
 ```
 
-**3. Run the following command**
+#### 3. Run the following command
 
 ```bash
 # npm run dev for developers
